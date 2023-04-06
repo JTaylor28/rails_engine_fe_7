@@ -1,5 +1,5 @@
-<h1><%= @merchant[:attributes][:name] %>'s Page</h1>
+<h1><%= @merchant.name %>'s Page</h1>
 
 <% @items.each do |item| %>
-  <p><%= item[:attributes][:name]%></p>
+  <p><%= item.name%></p>
 <%end%>
